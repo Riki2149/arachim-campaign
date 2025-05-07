@@ -11,6 +11,8 @@ The campaign is dedicated to raising funds for **Arachim**, a non-profit educati
   - Percentage of the donation goal reached
   - Total number of donors
   - Campaign donation goal
+  ![Arachim Cmpaign](./src/img/arachim-campaign.png)
+
 
 - **Donation Form**:  
   Visitors can donate by filling a simple, user-friendly form.
