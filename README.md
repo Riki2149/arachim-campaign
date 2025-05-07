@@ -20,7 +20,7 @@ The campaign is dedicated to raising funds for **Arachim**, a non-profit educati
   A dedicated section shows all donors with sorting and filtering options:
   - By newest or oldest donations
   - By donation amount (highest to lowest)
-![Donation Form](./src/img/donor-list.png)
+![Donor list](./src/img/donor-list.png)
 
 -  **Currency Converter**:  
   Users can toggle between viewing donation amounts in **NIS (₪)** or **USD ($)**.
