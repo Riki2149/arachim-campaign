@@ -1,0 +1,49 @@
+.campaign-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* כפתור החלפת סוג המטבע */
+.button {
+    min-width: 40px;
+}
+
+
+/* כיתוב כמות וסכום התורמים + יעד הקמפיין */
+.count,
+.goal,
+.donations {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* קו הזז ע"פ אחוז התרומות */
+.LinearProgress {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* אחוז התרומות */
+.percentage {
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+    background-color: lightskyblue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+/* העיגול הזז מעל הקו של אחוז התרומות */
+.LinearProgress-circle {
+    position: absolute;
+    top: -7.5px;
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 20px;
+    background-color: #3f51b5;
+    border-radius: 50%;
+    z-index: 2;
+}

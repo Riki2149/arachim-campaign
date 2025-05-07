@@ -1,0 +1,58 @@
+/* הקישורים */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    display: block;
+    width: 110px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* מעבר על הקישור */
+.navbar a:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* לחיצה על הקישור */
+.navbar a:active {
+    background-color: #003d75;
+    border-color: #003d75;
+    transform: translateY(2px);
+}
+
+.navbar a:focus {
+    outline: none;
+}
+
+/* הלוגו */
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 150px;
+}
